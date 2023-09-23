@@ -12,11 +12,7 @@ const ProductPreview = ({
   return (
     <Link href={`/products/${handle}`} className="group hover:opacity-75">
       <div>
-        <Thumbnail
-          thumbnail={thumbnail}
-          size="full"
-          className="group-hover:opacity-75"
-        />
+        <Thumbnail thumbnail={thumbnail} size="full" />
         <div className="text-base-regular mt-2">
           <span>{title}</span>
           <div className="flex items-center gap-x-2 mt-1">
