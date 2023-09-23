@@ -30,6 +30,9 @@ dependencies:
   '@medusajs/product':
     specifier: ^0.2.0
     version: 0.2.0(pg@8.11.3)
+  '@medusajs/types':
+    specifier: ^1.11.1
+    version: 1.11.1
   '@meilisearch/instant-meilisearch':
     specifier: ^0.7.1
     version: 0.7.1

@@ -48,6 +48,7 @@ const CountrySelect = () => {
   return (
     <div onMouseEnter={open} onMouseLeave={close}>
       <Listbox
+        // @ts-ignore
         onChange={handleChange}
         defaultValue={
           countryCode
